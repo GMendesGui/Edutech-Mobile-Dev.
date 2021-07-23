@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+	function mostra(frase) {
+
+		document.write(frase);
+		puloLinha();
+
+	}
+
+	function puloLinha() {
+
+		document.write ("<br><br>");
+
+	}
+
+	var nome = prompt("Seja muito bem-vindo(a)! Para começarmos, informe o seu nome.");
+	var idade = prompt("Muito bem " + nome + ", e qual a sua idade?");
+
+	mostra("Cadastro no site legal");
+	mostra("Nome: " + nome);
+	mostra("Idade: " + idade);
+</script>
